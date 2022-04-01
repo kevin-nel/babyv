@@ -44,6 +44,20 @@ flowchart
 5. sliced up the model and added slots and keys to make for a stronger connection
 6. imported the model into prusaslicer and split it into the separate objects and printed.
 
+### some images of the design process
+
+design in openscad
+![openscad](img/openscad1.png)
+tweaking the mesh in blender (adding bevel on the top case and chamfering the usb hole)
+![blender](img/blender1.png)
+getting model ready to print in tinkercad
+![tinkercad split](img/tinkercad1.png)
+![tinkercad keying](img/tinkercad2.png)
+test prints to make sure the dimensions are right for the switches and stabilisers
+![test prints of the plate](img/test-prints.jpg)
+printing the case
+![prusa slicer job](img/prusa.png)
+
 ## the build
 
 ### handwiring and firmware
