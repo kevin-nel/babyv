@@ -5,8 +5,9 @@
 I really loved the alice-inspired ortholinear layout by eyeohdesigns, but I also really loved the (now discontinued) rounded and thick bezeled 3d printed case of the prime-e by p3d.
 This is my attempt to marry the 2 designs with some inspiration from the multipart flurples c13x qaz alice style keyboard.
 
-<!-- change this path to match the actual github link -->
+<!-- change this path to match the actual github link
 <script src="https://embed.github.com/view/3d/kevin-nel/babyvcase/master/case/case.stl"></script>
+-->
 
 ## todo
 
@@ -24,7 +25,7 @@ Due to my stubbornness :ox: and unwilingness to learn how to use a real CAD pack
 
 ```mermaid
 flowchart
-    A[svgs from a <br> laser cut case generator] --> B[openscad script  <br> to make case files];
+    A[edited svgs from a <br> laser cut case generator] --> B[openscad script  <br> to make case files];
     B --> C[mesh editing in blender <br> for bevels and round curvy bits];
     C --> D[tinkercad <br> to splice the files for actual printing];
     D --> E[realise something isn't quite right <br> and needs to be changed in the original svg];
@@ -33,7 +34,7 @@ flowchart
 
 ### a slighly longer summary
 
-1. used the [svgs that were in the casefiles folder of the eyeohdesigns babyv repo](https://github.com/joedinkle/eyeohdesigns/tree/main/keyboards/babyv/casefiles) as starting point and removed holes.
+1. used the [svgs that were in the casefiles folder of the eyeohdesigns babyv repo](https://github.com/joedinkle/eyeohdesigns/tree/main/keyboards/babyv/casefiles) as starting point and edited them so that I had separate files for holes, outline, switch holes, and a top cutout. A little bit of editing was also done to the svgs to move the holes around.
 2. openscad script to generate the stls for a 4 part case (bottom, case-inner, plate, case-top)
 3. stabilisers:
     - original plate svg did not fit my stabs so I used the ``keyboardlayout.json`` from the [vial qmk repo](https://github.com/vial-kb/vial-qmk/blob/vial/keyboards/eyeohdesigns/babyv/keymaps/vial/vial.json) and generated a new svg of the plate in [builder.swillkb](http://www.builder.swillkb.com/)

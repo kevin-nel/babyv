@@ -20,6 +20,10 @@ module case_inner(){
             scale([1,1,20])switchplate(6);     
             translate([4,4,0])scale([0.97,0.92,21])switchplate(6);  
         }
+        difference(){
+            translate([0,0,5])linear_extrude(20)offset(delta=3)import(file="svgs/ScrewHoles.svg",center = false);
+            translate([0,0,15])linear_extrude(10)offset(delta=0)import(file="svgs/ScrewHoles.svg",center = false);
+        } 
     }
 }
 module plate(){
@@ -36,8 +40,8 @@ module plate(){
                 translate([4+0.68+0.05-0.0450000000,5,0])linear_extrude(5)import(file="svgs/SwitchHolesUpdated.svg",center = false);
                 translate([4+0.68+0.05-0.0450000000,5,1.6])linear_extrude(5-1.6)offset(delta=1.4)import(file="svgs/SwitchHolesUpdated.svg",center = false);
             }
-            #rotate([0,0,-8])translate([19*4+5+1,23+3+1,1.6])cube([19*2-2,18,5]);
-            #rotate([0,0,8])translate([19*8-2+1,-11,1.6])cube([19*2-2,18,5]);
+            rotate([0,0,-8])translate([19*4+5+1,23+3+1,1.6])cube([19*2-2,18,5]);
+            rotate([0,0,8])translate([19*8-2+1,-11,1.6])cube([19*2-2,18,5]);
         }
     }
 }
@@ -57,12 +61,18 @@ module case_top(){
     }
 }
 
+module bottom(){
+difference(){
+    scale([1,1,5])switchplate(6);
+    translate([0,0,-2.5])linear_extrude(10)offset(delta=0)import(file="svgs/ScrewHoles.svg",center = false);     
+}
+}
 //top
 translate([7.5,114.5,45])rotate([180,0,0])
 union(){
     translate([0,0,-5])case_top();
     //bottom plate
-    translate([0,0,40])scale([1,1,5])switchplate(6);
+    translate([0,0,40])bottom();
     //switchplate
     translate([0,0,0])plate();
     //case inner
