@@ -12,9 +12,9 @@ This is my attempt to marry the 2 designs with some inspiration from the multipa
 ## todo
 
 - [x] fix issues with stabiliser in plate
-- [ ] add hole in case for promicro (scad)
-- [ ] add holes in inner-case and bottom for screws (scad)
-- [ ] finalise dimensions (MS 3D Builder)
+- [x] add hole in case for promicro (scad)
+- [x] add holes in inner-case and bottom for screws (scad)
+- [x] finalise dimensions (MS 3D Builder)
 - [ ] round top in blender
 - [ ] split and add keys in tinkercad
 - [ ] setup print jobs (gcode)
@@ -63,3 +63,8 @@ I pretty much just copied the firmware from my previous builds and modified the 
 ## final product
 
 <!-- glory shots (also put the nicest photo at the top of the readme) -->
+
+## useful links
+
+- [gateron switch datasheet](https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/50147694/6528571?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220401T144217Z&X-Amz-Expires=300&X-Amz-Signature=ec10e09da1aab0223d2a1809e3540ad6e22703289dc6e7bbb512e438b6ce3f4f&X-Amz-SignedHeaders=host&actor_id=78508907&key_id=0&repo_id=50147694&response-content-disposition=attachment%3Bfilename%3Dgateron_ks9_datasheet.pdf&response-content-type=application%2Fpdf)
+- [cherry mx datasheet](https://media.digikey.com/PDF/Data%20Sheets/Cherry%20PDFs/MX%20Series.pdf)
