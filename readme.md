@@ -5,9 +5,8 @@
 I really loved the alice-inspired ortholinear layout by eyeohdesigns, but I also really loved the (now discontinued) rounded and thick bezeled 3d printed case of the prime-e by p3d.
 This is my attempt to marry the 2 designs with some inspiration from the multipart flurples c13x qaz alice style keyboard.
 
-<!-- change this path to match the actual github link
-<script src="https://embed.github.com/view/3d/kevin-nel/babyvcase/master/things/case.stl"></script>
--->
+<!-- change this path to match the actual github link -->
+<script src="https://embed.github.com/view/3d/kevin-nel/babyvcase/master/case/case.stl"></script>
 
 ## todo
 

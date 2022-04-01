@@ -58,14 +58,16 @@ module case_top(){
 }
 
 //top
-translate([0,0,-5])case_top();
-//bottom plate
-translate([0,0,40])scale([1,1,5])switchplate(6);
-//switchplate
-!translate([0,0,0])plate();
-//case inner
-translate([0,0,10])case_inner();
-
+translate([7.5,114.5,45])rotate([180,0,0])
+union(){
+    translate([0,0,-5])case_top();
+    //bottom plate
+    translate([0,0,40])scale([1,1,5])switchplate(6);
+    //switchplate
+    translate([0,0,0])plate();
+    //case inner
+    translate([0,0,10])case_inner();
+}
 
 //old case without rounding on the top
 //translate([0,0,50])rotate([180,0,0])
