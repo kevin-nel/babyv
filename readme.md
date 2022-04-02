@@ -15,9 +15,13 @@ This is my attempt to marry the 2 designs with some inspiration from the multipa
 - [x] add hole in case for promicro (scad)
 - [x] add holes in inner-case and bottom for screws (scad)
 - [x] finalise dimensions (MS 3D Builder)
-- [ ] round top in blender
-- [ ] split and add keys in tinkercad
-- [ ] setup print jobs (gcode)
+- [x] round top in blender
+- [x] split and add keys in tinkercad
+- [x] setup print jobs (gcode)
+- [ ] post process prints
+- [ ] wire up the matrix (rgb underglow?)
+- [ ] solder the micro controller (take note of pins used)
+- [ ] firmware
 
 ## a short summary of the very long winded design process
 
