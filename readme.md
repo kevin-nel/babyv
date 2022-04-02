@@ -55,7 +55,6 @@ design in openscad
 tweaking the mesh in blender (adding bevel on the top case and chamfering the usb hole)
 ![blender](img/blender1.png)
 getting model ready to print in tinkercad
-![tinkercad split](img/tinkercad1.png)
 ![tinkercad keying](img/tinkercad2.png)
 test prints to make sure the dimensions are right for the switches and stabilisers
 ![test prints of the plate](img/test-prints.jpg)
@@ -63,6 +62,13 @@ printing the case
 ![prusa slicer job](img/prusa.png)
 
 ## the build
+
+### printing
+
+![first layers looking good](img/print1.jpg)
+trying to keep the print from coming loose
+![print started warping](img/print2.jpg)
+that print was a fail (in more ways than 1)
 
 ### handwiring and firmware
 
