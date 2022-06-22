@@ -8,6 +8,11 @@ This is my attempt to marry the 2 designs with some inspiration from the multipa
 <!-- change this path to match the actual github link
 <script src="https://embed.github.com/view/3d/kevin-nel/babyvcase/master/case/case.stl"></script>
 -->
+## current issues after first test print
+
+- [] no angle makes it difficult to type
+- [] no holder for micro
+- [] overall too tall 
 
 ## todo
 
