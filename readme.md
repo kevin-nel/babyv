@@ -10,9 +10,9 @@ This is my attempt to marry the 2 designs with some inspiration from the multipa
 -->
 ## current issues after first test print
 
-- [] no angle makes it difficult to type
-- [] no holder for micro
-- [] overall too tall 
+- [ ] no angle makes it difficult to type
+- [ ] no holder for micro
+- [ ] overall too tall 
 
 ## todo
 
