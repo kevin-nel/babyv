@@ -1,5 +1,7 @@
 # babyv case
 
+**THIS IS A WORK IN PROGRESS**
+
 <!-- put the nicest photo here -->
 
 I really loved the alice-inspired ortholinear layout by eyeohdesigns, but I also really loved the (now discontinued) rounded and thick bezeled 3d printed case of the prime-e by p3d.
