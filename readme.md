@@ -16,6 +16,7 @@ This is my attempt to marry the 2 designs with some inspiration from the multipa
 - [ ] no holder for micro
 - [ ] overall too tall 
 - [ ] tolerances need to be taken into consideration for the pegs in the split case (the connection is very tight and required sanding to make it fit)
+- [ ] doesn't need to be 2 pieces. top case section can be integrated with the plate portion.
 
 ## todo
 
